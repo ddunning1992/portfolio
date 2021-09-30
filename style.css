@@ -1,6 +1,6 @@
 :root {
   --primary-color: #221f1f;
-  --secondary-color: #e50914;
+  --secondary-color: #d5e1df;
   --tertiary-color: #f5f5f1;
 }
 
@@ -66,13 +66,18 @@ header nav ul li a {
   margin: 5px;
   padding: 10px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   border-radius: 15px;
+  justify-content: center;
 }
 
 .hero p {
   text-align: center;
+}
+
+#pic {
+  height: 250px;
+  width: 300px;
 }
 
 .showcase {
@@ -101,6 +106,9 @@ header nav ul li a {
   padding: 10px;
   border-radius: 15px;
 }
+#run-buddy:hover {
+  filter: grayscale(50%);
+}
 
 #run-buddy div h3, #run-buddy div p {
   color: #fce138;
@@ -117,6 +125,10 @@ header nav ul li a {
   border-radius: 15px;
 }
 
+#horiseon:hover {
+  filter: grayscale(50%);
+}
+
 #horiseon div h3, #horiseon div p {
   text-shadow: 0 0 10px rgba(0, 0, 0, 1);
   text-align: center;
@@ -129,6 +141,7 @@ header nav ul li a {
   border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: left
 }
 
 footer {
